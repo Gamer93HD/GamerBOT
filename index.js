@@ -3,7 +3,7 @@ const client = new Discord.Client();
 var prefix = "?";
 var pre = "!!";
 
-client.login("NjQ2MDEzMDQxNDY0NTczOTgy.XeUtvA.dKZW5VOHAqVzLmMk_iSj9sE7N3k");
+client.login("ID");
 
 client.on("guildMemberAdd", user =>{
     user.guild.channels.get("589739099154546690").send("Bienvenu(e) " + user +" sur le serveur")
